@@ -19,6 +19,8 @@ def insertionsort(A):
                 if A[insert] < A[i-j]:
                     A[insert],A[i-j] = A[i-j],A[insert]
                     insert = i-j
+                else:
+                    break
     return A
 
 def selectionsort(A):
@@ -29,4 +31,5 @@ def selectionsort(A):
         A[len(A)-i-1],A[largest_index] = A[largest_index], A[len(A)-i-1]
     return A
 
-#if __name__ = "__main__":
+if __name__ == "__main__":
+    pass

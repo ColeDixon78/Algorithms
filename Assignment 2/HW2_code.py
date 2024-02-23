@@ -208,18 +208,18 @@ if __name__ == "__main__":
     #print("Selectionsort works") if check_validity(selectionsort) else print("Selectionsort failed")
 
     #compare times of sorting algorithms
-    #compare_times(bubblesort,insertionsort,selectionsort)
+    compare_times(bubblesort,insertionsort,selectionsort)
 
     #compare worst times
-    #compare_worst(bubblesort,insertionsort,selectionsort)
+    compare_worst(bubblesort,insertionsort,selectionsort)
 
     #compare average times
-    #compare_average(bubblesort,insertionsort,selectionsort)
+    compare_average(bubblesort,insertionsort,selectionsort)
     #compare best times
-    #compare_best(bubblesort,insertionsort,selectionsort)
+    compare_best(bubblesort,insertionsort,selectionsort)
     #compare best times on sorted list
-    #compare_best_sorted(bubblesort,insertionsort,selectionsort)
-    #compare_best_sorted(bubblesort,insertionsort)
+    compare_best_sorted(bubblesort,insertionsort,selectionsort)
+    compare_best_sorted(bubblesort,insertionsort)
     #compare best times on partially sorted lists
     compare_adaptive(bubblesort,insertionsort,selectionsort)
     #compare to theoretical
